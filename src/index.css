@@ -25,3 +25,15 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
+
+.footerlink:hover a{
+  font-weight: bold;
+}
+
+.footerlink a{
+  text-decoration: none;
+}
+
+.dev{
+  margin-bottom: 0;
+}
