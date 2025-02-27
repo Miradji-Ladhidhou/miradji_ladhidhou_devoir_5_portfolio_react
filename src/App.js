@@ -1,11 +1,11 @@
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Navigation from './components/Navigation.js';
 
 function App() {
   return (
-    <div>
-     
+    <div className="App">
+      <Navigation />
     </div>
   );
 }
