@@ -1,49 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 body {
-  margin: 0;
   font-family: 'Nunito sans' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.navbar {
-  background-color: #2c3e50; /* Changez la couleur de la navbar */
-  text-transform: uppercase;
-}
-
-.nav-link {
-  color: #f5f1f2 !important; /* Changez la couleur des liens */
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-/* Changez la couleur du lien actif */
-.nav-link.active {
-  color: #ff5733 !important;  /* Exemple de couleur orange pour le lien actif */
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.footerlink:hover a{
-  font-weight: bold;
-}
-
-.footerlink a{
-  text-decoration: none;
-}
-
-.dev{
-  margin-bottom: 0;
-}
-
-.icone{
-  margin-right: 3%;
-  transition: fill 0,3s ease;
-  color:gray;
-}
-
-.icone:hover{
-  color: white;
 }
